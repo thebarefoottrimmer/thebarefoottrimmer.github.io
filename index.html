@@ -4,7 +4,11 @@
     <script async src="https://www.googletagmanager.com/gtag/js?id=G-ZRTQDV7FCF"></script>
     <script>
         window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
+
+        function gtag() {
+            dataLayer.push(arguments);
+        }
+
         gtag('js', new Date());
         gtag('config', 'G-ZRTQDV7FCF');
     </script>
@@ -16,13 +20,15 @@
 <body data-spy="scroll" data-target=".navbar" data-offset="40" id="home">
 <nav class="custom-navbar affix-top" data-spy="affix" data-offset-top="20">
     <div class="container">
-        <a class="logo" href="javascript:void(0)">Konstantin - The Barefoot Trimmer</a>
+        <a class="logo" href="javascript:void(0)">The Barefoot Trimmer</a>
         <ul class="nav">
             <li class="item"><a class="link" href="#home">Home</a></li>
             <li class="item"><a class="link" href="#about">About</a></li>
             <li class="item"><a class="link" href="#service">Service</a></li>
+            <li class="item"><a class="link" href="#map">Area</a></li>
             <li class="item"><a class="link" href="#portfolio">Success stories</a></li>
             <li class="item"><a class="link" href="#pricing">Pricing</a></li>
+            <li class="item"><a class="link" href="#info">Info</a></li>
             <li class="item"><a class="link" href="#contact">Contact</a></li>
         </ul>
         <a href="javascript:void(0)" id="nav-toggle" class="hamburger hamburger--elastic">
@@ -42,7 +48,7 @@
     <div class="container text-center">
         <div class="about">
             <div class="about-img-holder">
-                <img src="man.png" class="about-img" alt="website template image">
+                <img src="man.png" class="about-img" alt="Konstantin">
             </div>
             <div class="about-caption">
                 <p class="section-subtitle">Who Am I ?</p>
@@ -63,16 +69,16 @@
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="pencil-case.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Basic hoof trim" class="icon">
                         <h6 class="title">Basic hoof trim</h6>
-                        <p class="subtitle">Suites horses with good string feet</p>
+                        <p class="subtitle">Suites horses with good strong feet</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="responsive.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Trimming foundered hooves" class="icon">
                         <h6 class="title">Trimming foundered hooves</h6>
                         <p class="subtitle">A special approach to trimming horses and ponies feet suffering from
                             laminitis/founder</p>
@@ -82,7 +88,7 @@
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="toolbox.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Hoof casting" class="icon">
                         <h6 class="title">Hoof casting</h6>
                         <p class="subtitle">Temporarily applying hoof casts made of fiberglass to stop hoof wall
                             flaring</p>
@@ -92,7 +98,7 @@
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="analytics.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Hoof wall crack resection" class="icon">
                         <h6 class="title">Hoof wall crack resection</h6>
                         <p class="subtitle">Opening up cracks to allow oxygen from the air to help fighting with
                             anaerobic bacterias, to prevent dirt and manure to get packed in such cracks, creating
@@ -104,7 +110,7 @@
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="analytics.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Fitting ScootBoots" class="icon">
                         <h6 class="title">Fitting ScootBoots</h6>
                         <p class="subtitle">Includes measuring and finding the best fit for each hoof on-site</p>
                     </div>
@@ -113,16 +119,16 @@
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="analytics.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="HoofArmour application" class="icon">
                         <h6 class="title">HoofArmour application</h6>
-                        <p class="subtitle">Protects the sole of the foot from excess wearing</p>
+                        <p class="subtitle">Protects the sole of the foot from excessive wearing</p>
                     </div>
                 </div>
             </div>
             <div class="col-md-6 col-lg-3 mb-2">
                 <div class="service-card">
                     <div class="body">
-                        <img src="analytics.svg" alt="website template image" class="icon">
+                        <img src="toolbox.svg" alt="Free online advice" class="icon">
                         <h6 class="title">Free online advice</h6>
                         <p class="subtitle">You are welcome to ask me any questions.</p>
                     </div>
@@ -131,31 +137,57 @@
         </div>
     </div>
 </section>
+<section class="section" id="map">
+    <div class="container text-center">
+        <p class="section-subtitle">Where I Go ?</p>
+        <h6 class="section-title mb-6">Area of Service</h6>
+        <div>
+            <iframe src="https://www.google.com/maps/d/embed?mid=1GYUqfxQi6zHIrDQDnz08QUh1RJLMpeQ&ehbc=2E312F"
+                    width="100%" height="680"></iframe>
+        </div>
+    </div>
+</section>
 <section class="section" id="portfolio">
     <div class="container text-center">
         <p class="section-subtitle">What I Did ?</p>
         <h6 class="section-title mb-6">Success stories</h6>
         <div class="row">
-            <div class="col-md-4"><a href="https://www.free-css.com/free-css-templates" class="portfolio-card"><img
-                    src="assets/imgs/folio-1.jpg" class="portfolio-card-img" alt="website template image"> <span
-                    class="portfolio-card-overlay"><span class="portfolio-card-caption">
-        <h4>Web Designing</h4>
-        <p class="font-weight-normal">Treating founder</p>
-        </span></span></a></div>
-            <div class="col-md-4"><a href="https://www.free-css.com/free-css-templates" class="portfolio-card"><img
-                    src="assets/imgs/folio-2.jpg" class="portfolio-card-img img-responsive rounded"
-                    alt="website template image"> <span class="portfolio-card-overlay"><span
-                    class="portfolio-card-caption">
-        <h4>Web Designing</h4>
-        <p class="font-weight-normal">Category: Hoof wall crack resection</p>
-        </span></span></a></div>
-            <div class="col-md-4"><a href="https://www.free-css.com/free-css-templates" class="portfolio-card"><img
-                    src="assets/imgs/folio-3.jpg" class="portfolio-card-img img-responsive rounded"
-                    alt="website template image"> <span class="portfolio-card-overlay"><span
-                    class="portfolio-card-caption">
-        <h4>Web Designing</h4>
-        <p class="font-weight-normal">Improving shape and function</p>
-        </span></span></a></div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="portfolio-card">
+                    <img src="pony.jpg" class="portfolio-card-img img-responsive rounded"
+                         alt="Perfect pony hoof">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Pony's hoof</h4>
+                            <p class="font-weight-normal">Example of a perfect hoof of a Welsh pony. Notice a well-developed frog</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="portfolio-card">
+                    <img src="horse.jpg" class="portfolio-card-img img-responsive rounded"
+                         alt="Horse's hoof">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Horse's hoof</h4>
+                            <p class="font-weight-normal">Solid hoof of a horse. Firm white line and good quality sole. Although, the frog and underlying soft tissues are still on the way to full recovery</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
+            <div class="col-md-4">
+                <a href="javascript:void(0)" class="portfolio-card">
+                    <img src="shetland.jpg" class="portfolio-card-img img-responsive rounded"
+                         alt="Foundered hoof">
+                    <span class="portfolio-card-overlay">
+                        <span class="portfolio-card-caption">
+                            <h4>Foundered hoof</h4>
+                            <p class="font-weight-normal">This little shetland mare foundered badly about a year ago is recovering well</p>
+                        </span>
+                    </span>
+                </a>
+            </div>
         </div>
     </div>
 </section>
@@ -166,7 +198,7 @@
         <div class="pricing-wrapper">
             <div class="pricing-card">
                 <div class="pricing-card-header">
-                    <img class="pricing-card-icon" src="scooter.svg" alt="website template image">
+                    <img class="pricing-card-icon" src="hoof.svg" alt="Basic hoof trim">
                 </div>
                 <div class="pricing-card-body">
                     <h6 class="pricing-card-title">Basic hoof trim</h6>
@@ -178,7 +210,7 @@
             </div>
             <div class="pricing-card">
                 <div class="pricing-card-header">
-                    <img class="pricing-card-icon" src="shipped.svg" alt="website template image">
+                    <img class="pricing-card-icon" src="hoof.svg" alt="Founder trim">
                 </div>
                 <div class="pricing-card-body">
                     <h6 class="pricing-card-title">Founder trim</h6>
@@ -190,15 +222,104 @@
             </div>
             <div class="pricing-card">
                 <div class="pricing-card-header">
-                    <img class="pricing-card-icon" src="startup.svg" alt="website template image">
+                    <img class="pricing-card-icon" src="hoof.svg" alt="Crack resection">
                 </div>
                 <div class="pricing-card-body">
                     <h6 class="pricing-card-title">Crack resection</h6>
                     <div class="pricing-card-list">
-                        <p>Cutting it open</p>
+                        <p>Topical treatment included</p>
                     </div>
                 </div>
                 <div class="pricing-card-footer"><span>$</span> <span>10.00/Crack</span></div>
+            </div>
+        </div>
+        <div class="pricing-wrapper">
+            <div class="pricing-card">
+                <div class="pricing-card-header">
+                    <img class="pricing-card-icon" src="hooves.png" alt="Hoof casting">
+                </div>
+                <div class="pricing-card-body">
+                    <h6 class="pricing-card-title">Hoof casting</h6>
+                    <div class="pricing-card-list">
+                        <p>Casts not included</p>
+                    </div>
+                </div>
+                <div class="pricing-card-footer"><span>$</span> <span>20.00/Hoof</span></div>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-card-header">
+                    <img class="pricing-card-icon" src="hooves.png" alt="Boots fitting">
+                </div>
+                <div class="pricing-card-body">
+                    <h6 class="pricing-card-title">Boots fitting</h6>
+                    <div class="pricing-card-list">
+                        <p>ScootBoots Enduro available</p>
+                    </div>
+                </div>
+                <div class="pricing-card-footer"><span>$</span> <span>50.00/Horse</span></div>
+            </div>
+            <div class="pricing-card">
+                <div class="pricing-card-header">
+                    <img class="pricing-card-icon" src="hooves.png" alt="HoofArmour Application">
+                </div>
+                <div class="pricing-card-body">
+                    <h6 class="pricing-card-title">HoofArmour</h6>
+                    <div class="pricing-card-list">
+                        <p>All materials included</p>
+                    </div>
+                </div>
+                <div class="pricing-card-footer"><span>$</span> <span>15.00/Foot</span></div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="section" id="info">
+    <div class="container text-center">
+        <h6 class="section-title mb-6">Useful info</h6>
+        <div class="blog-card">
+            <div class="blog-card-header">
+                <img src="hoof.svg" class="blog-card-img" alt="website template image">
+            </div>
+            <div class="blog-card-body">
+                <h5 class="blog-card-title">How often should my horse see the farrier?</h5>
+                <p>All domestic horses need good, regular hoof care. Hooves that are allowed to grow long are not just
+                    unsightly – the internal workings of the hoof, the tendons and ligaments of the legs and ultimately
+                    the movement of the horse are all affected by having unbalanced hoofs. If you are not convinced of
+                    how important good regular hoof care is then imagine trying to walk in clown shoes that also have
+                    high heels! Imagine trying to run in them! Imagine having to wear those shoes for days, weeks or
+                    months and how this would affect other parts of your body!</p>
+                <p>Irrespective of whether a domestic horse is shod or unshod (barefoot) they all need good regular hoof
+                    care. A domestic horse is unable to wear their hooves down as nature intended. Wild horses maintain
+                    their own hooves by moving many kilometres a day across a variety of surfaces. This keeps their
+                    hooves in good condition as the movement across abrasive surfaces wears (‘trims’) the hooves on a
+                    continual basis. Unshod domestic horses rarely move enough to wear down their hooves correctly and
+                    the hooves of shod horses do not wear at all as horseshoes prevent any wear from occurring.</p>
+                <p><b>Unshod horses</b> need regular trimming. Soft surfaces such as pasture and stable bedding do not
+                    wear the hoof down at all therefore the hooves need to be trimmed about every three to four weeks
+                    (six weeks maximum). Horses that are wearing their feet down on more abrasive surfaces may need less
+                    frequent trimmings however even with these horses regular light trimming is necessary to maintain
+                    the correct shape of the hoof.</p>
+                <p>There are now courses available for horse owners where you can learn how to maintain and trim your
+                    own horse’s hooves. Theses courses teach you all about hooves, not just how to trim them and are a
+                    great way of learning about this very important part of your horse. Once proficient at trimming you
+                    can maintain the hooves of your horse by carrying out regular trims and arranging to have a
+                    professional ‘trimmer’ visit less frequently to give your horse a thorough trim, check your work and
+                    make sure you are on the right track.</p>
+                <p><b>Shod horses</b> need to be re-shod every four to six weeks irrespective of whether they have worn
+                    the shoes out or not. The hooves grow continuously and when shod the hoof cannot wear down as it can
+                    (in the correct conditions) with an unshod horse. So make sure you have a regular appointment with
+                    your farrier so that your horse does not go too long between shoeing.</p>
+                <p>If a horse is only working intermittently they do not need to be kept continuously shod. Many horses
+                    are fine with front shoes only and many do not need shoes at all. Even horses in hard work can be
+                    unshod. There have been great advances in hoofboots in the last few years and many horse owners
+                    prefer to use them rather than keep a horse continuously shod. The hoofboots are put on the horse
+                    for work and the hooves are left ‘bare’ for the rest of the time.</p>
+                <p>You will need to do some research if you want to change your horse from shod to ‘barefoot’. Horse
+                    owners who change to ‘barefoot’ usually start to become more involved with the hoofcare of their
+                    horse (where before they may have just had the farrier visit and left it up to them) but this is a
+                    good thing as horse owner’s end up learning a lot more in the process. Remember – you can never have
+                    too much knowledge!</p>
+                <p><a href="https://kb.rspca.org.au/">RSPCA</a></p>
             </div>
         </div>
     </div>
@@ -217,6 +338,7 @@
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
         crossorigin="anonymous"></script>
+<script src="bootstrap.affix.js"></script>
 <script type="application/javascript">
     $(document).ready(function () {
         $(".navbar .nav-link").on("click", function (n) {
