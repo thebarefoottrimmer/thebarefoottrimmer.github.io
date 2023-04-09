@@ -1,8 +1,8 @@
 @charset "UTF-8";
 @font-face {
     font-family: themify;
-    src: url(fonts/themify.eot?-fvbane);
-    src: url(fonts/themify.eot?#iefix-fvbane) format("embedded-opentype"), url(fonts/themify.woff?-fvbane) format("woff"), url(fonts/themify.ttf?-fvbane) format("truetype"), url(fonts/themify.svg?-fvbane#themify) format("svg");
+    src: url(themify.eot?-fvbane);
+    src: url(themify.eot?#iefix-fvbane) format("embedded-opentype"), url(themify.woff?-fvbane) format("woff"), url(themify.ttf?-fvbane) format("truetype"), url(themify.svg?-fvbane#themify) format("svg");
     font-weight: 400;
     font-style: normal
 }
@@ -1431,63 +1431,63 @@
     font-family: "Baloo Paaji";
     font-style: normal;
     font-weight: 400;
-    src: local("Baloo Paaji"), url(fonts/Baloo-Paaji-400.woff2) format("woff2")
+    src: local("Baloo Paaji"), url(Baloo-Paaji-400.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 300;
-    src: local("Open Sans Light"), url(fonts/OpenSans-Light.woff2) format("woff2")
+    src: local("Open Sans Light"), url(OpenSans-Light.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 400;
-    src: local("Open Sans"), url(fonts/OpenSans-Regular.woff2) format("woff2")
+    src: local("Open Sans"), url(OpenSans-Regular.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 600;
-    src: local("Open Sans Semibold"), url(fonts/OpenSans-Semibold.woff2) format("woff2")
+    src: local("Open Sans Semibold"), url(OpenSans-Semibold.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: 700;
-    src: local("Open Sans Bold"), url(fonts/OpenSans-Bold.woff2) format("woff2")
+    src: local("Open Sans Bold"), url(OpenSans-Bold.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: italic;
     font-weight: 300;
-    src: local("Open Sans Light Italic"), url(fonts/OpenSansLight-Italic.woff2) format("woff2")
+    src: local("Open Sans Light Italic"), url(OpenSansLight-Italic.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: italic;
     font-weight: 400;
-    src: local("Open Sans Italic"), url(fonts/OpenSans-Italic.woff2) format("woff2")
+    src: local("Open Sans Italic"), url(OpenSans-Italic.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: italic;
     font-weight: 600;
-    src: local("Open Sans Semibold Italic"), url(fonts/OpenSans-SemiboldItalic.woff2) format("woff2")
+    src: local("Open Sans Semibold Italic"), url(OpenSans-SemiboldItalic.woff2) format("woff2")
 }
 
 @font-face {
     font-family: "Open Sans";
     font-style: italic;
     font-weight: 700;
-    src: local("Open Sans Bold Italic"), url(fonts/OpenSans-BoldItalic.woff2) format("woff2")
+    src: local("Open Sans Bold Italic"), url(OpenSans-BoldItalic.woff2) format("woff2")
 }
 
 :root {
@@ -13642,7 +13642,7 @@ pre .code, pre code {
     -webkit-justify-content: center;
     -ms-flex-pack: center;
     justify-content: center;
-    background-image: url(../imgs/header.jpg);
+    background-image: url(header.jpg);
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center
